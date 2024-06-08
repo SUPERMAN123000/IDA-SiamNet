@@ -58,3 +58,20 @@ For readers to easily evaluate the accuracy, we provide the trained weights of t
 
 [Baidu](https://pan.baidu.com/s/132MzdDZLxIdzf-cNgXjNfw) (pswd: 143e)
 
+## Citation
+
+If you find this project useful in your research, please consider cite:
+
+```bibtex
+@ARTICLE{10551864,
+  author={Li, Yun-Cheng and Lei, Sen and Liu, Nanqing and Li, Heng-Chao and Du, Qian},
+  journal={IEEE Transactions on Geoscience and Remote Sensing}, 
+  title={IDA-SiamNet: Interactive- and Dynamic-Aware Siamese Network for Building Change Detection}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-1},
+  keywords={Buildings;Feature extraction;Shape;Transformers;Remote sensing;Decoding;Architecture;Building Change Detection;Feature interaction;Feature alignment;Siamese network;Remote sensing image},
+  doi={10.1109/TGRS.2024.3410977}}
+```
+
