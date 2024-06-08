@@ -1,7 +1,7 @@
 # IDA-SiamNet
 This is a PyTorch implementation of the paper IDA-SiamNet: Interactive- and Dynamic-Aware Siamese Network for Building Change Detection
 
-Train
+## Train
 ```
 python tools/train.py configs/idasiamnet/idasiamnet_ex_r18_512x512_40k_levircd.py --work-dir ./idasiam_r18_levir
 
@@ -16,7 +16,7 @@ python tools/train.py configs/idasiamnet/idasiamnet_ex_r18_256x256_100e_whucd.py
 python tools/train.py configs/idasiamnet/idasiamnet_ex_mit-b1_256x256_100e_whucd.py --work-dir ./idasiamnet_mit_whucd
 ```
 
-Infer
+## Infer
 ```
 python tools/test.py configs/idasiamnet/idasiamnet_ex_r18_512x512_40k_levircd.py idasiam_r18_levir/best_mIoU_iter_40000.pth
 
@@ -30,3 +30,10 @@ python tools/test.py configs/idasiamnet/idasiamnet_ex_r18_256x256_100e_whucd.py 
 
 python tools/test.py configs/idasiamnet/idasiamnet_ex_mit-b1_256x256_100e_whucd.py idasiamnet_mit_whucd/best_mIoU_epoch_100.pth
 ```
+
+## Pretrained Models
+
+For readers to easily evaluate the accuracy, we provide the trained weights of the IDA-SiamNet
+
+[Baidu](https://pan.baidu.com/s/132MzdDZLxIdzf-cNgXjNfw) (pswd: 143e)
+
