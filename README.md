@@ -1,6 +1,27 @@
 # IDA-SiamNet
 This is a PyTorch implementation of the paper IDA-SiamNet: Interactive- and Dynamic-Aware Siamese Network for Building Change Detection
 
+## Dataset preparation
+```
+      Data
+      ├── LEVIR-CD
+      │   ├── train
+      │   │   ├── A
+      │   │   ├── B
+      │   │   ├── label
+      │   ├── val
+      │   │   ├── A
+      │   │   ├── B
+      │   │   ├── label
+      │   ├── test
+      │   │   ├── A
+      │   │   ├── B
+      │   │   ├── label
+      │   ├── list
+      │   │   ├── train.txt
+      │   │   ├── val.txt
+      │   │   ├── test.txt
+```
 ## Train
 ```
 python tools/train.py configs/idasiamnet/idasiamnet_ex_r18_512x512_40k_levircd.py --work-dir ./idasiam_r18_levir
