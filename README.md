@@ -86,4 +86,3 @@ If you find this project useful in your research, please consider cite:
   keywords={Buildings;Feature extraction;Shape;Transformers;Remote sensing;Decoding;Architecture;Building Change Detection;Feature interaction;Feature alignment;Siamese network;Remote sensing image},
   doi={10.1109/TGRS.2024.3410977}}
 ```
-
