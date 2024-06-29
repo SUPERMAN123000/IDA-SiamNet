@@ -65,6 +65,8 @@ python tools/test.py configs/idasiamnet/idasiamnet_ex_r18_256x256_100e_whucd.py 
 
 python tools/test.py configs/idasiamnet/idasiamnet_ex_mit-b1_256x256_100e_whucd.py idasiamnet_mit_whucd/best_mIoU_epoch_100.pth
 ```
+## Results
+![LEVIR-CD_cmp](README_img/LEVIR-CD_cmp.svg)
 
 ## Pretrained Models
 
