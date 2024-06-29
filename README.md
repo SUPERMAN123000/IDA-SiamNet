@@ -1,6 +1,8 @@
 # IDA-SiamNet
 This is a PyTorch implementation of the paper IDA-SiamNet: Interactive- and Dynamic-Aware Siamese Network for Building Change Detection
 
+![Overall Framework](README_img/overallframework.svg)
+
 ## simple usage
 ```
 pip install -U openmim
@@ -80,9 +82,9 @@ If you find this project useful in your research, please consider cite:
   journal={IEEE Transactions on Geoscience and Remote Sensing}, 
   title={IDA-SiamNet: Interactive- and Dynamic-Aware Siamese Network for Building Change Detection}, 
   year={2024},
-  volume={},
+  volume={62},
   number={},
-  pages={1-1},
-  keywords={Buildings;Feature extraction;Shape;Transformers;Remote sensing;Decoding;Architecture;Building Change Detection;Feature interaction;Feature alignment;Siamese network;Remote sensing image},
+  pages={1-13},
+  keywords={Buildings;Feature extraction;Shape;Transformers;Remote sensing;Decoding;Architecture;Building change detection (BCD);feature alignment;feature interaction;remote sensing image;Siamese network},
   doi={10.1109/TGRS.2024.3410977}}
 ```
