@@ -68,7 +68,7 @@ python tools/test.py configs/idasiamnet/idasiamnet_ex_mit-b1_256x256_100e_whucd.
 ## Results
 Visual comparison of building change results on the LEVIR-CD dataset.
 ![LEVIR-CD_cmp](README_img/LEVIR-CD_cmp.svg)
-
+(a) T1 image, (b) T2 image, (c) Change label, (d) TINYCD, (e) SNUNet/16, (f) DSIFN, (g) ChangerAD (ResNet18), (h) Changer (ResNet18), (i) IDA-SiamNet (ResNet18), (j) BiT, (k) ChangeFormer, (l) ChangerAD (MiT-b1), (m) Changer (MiT-b1), and (n) IDA-SiamNet (MiT-b1). White represents a true positive, black is a true negative, red indicates a false positive, and blue stands as a false negative.
 ## Pretrained Models
 
 For readers to easily evaluate the accuracy, we provide the trained weights of the IDA-SiamNet
